@@ -78,10 +78,13 @@ button:hover {
 
 
 /* Responsive CSS for Mobile and Smaller screens */
-@media screen and (max-width: 600px) { 
+@media screen and (max-width: 700px) { 
     .unit-container {
         width: 6rem;
         text-align: center;
-        
     }
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+    } 
 }
