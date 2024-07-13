@@ -12,7 +12,6 @@ function myTimer() {
       
 }
 
-
 function changeToBlue() {
     var bodyBackground = document.getElementById("body");
 
@@ -29,8 +28,6 @@ function changeToPurple() {
 
     setTimeout(changeToBlue, 5000);
 }
-
-
   
 
 
