@@ -1,0 +1,89 @@
+/* Clock Page(index) & General CSS */
+#body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: auto;
+    background-color: blueviolet;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+#today-date-container {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+h1 {
+    font-size: 3rem;
+}
+
+#today-heading {
+    color: rgb(255, 184, 184);
+}
+
+button {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 24px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+    box-sizing: border-box;
+    color: #3c4043;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 14px;
+    font-weight: 500;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: .25px;
+    max-width: 100%;
+    padding: 2px 24px;
+    position: relative;
+    text-align: center;
+}
+
+button:hover {
+    transition: 0.5s;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+/* Countdown Page CSS */
+#countdown-body {
+    display: flex;
+    background: url(./cherry.png);
+    background-position: 0%;
+    flex-direction: column;
+    height: 100vh;
+    width: auto;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+#countdown-container {
+    display: flex;
+    
+}
+
+.unit-container {
+    width: 8rem;
+    text-align: center;
+}
+
+
+/* Responsive CSS for Mobile and Smaller screens */
+@media screen and (max-width: 600px) { 
+    .unit-container {
+        width: 6rem;
+        text-align: center;
+        
+    }
+}
